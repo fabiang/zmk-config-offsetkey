@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: a741725193
       url-base: https://github.com/a741725193
+    - name: zmk-locales
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -39,5 +41,8 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
+    - name: zmk-locales
+      remote: zmk-locales
+      revision: main
   self:
     path: config
