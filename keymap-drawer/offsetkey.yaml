@@ -1,64 +1,64 @@
 layout: {zmk_keyboard: offsetkey}
 layers:
-  QWERTY:
+  QWERTZ:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - DE CARET
+  - DE 1
+  - DE 2
+  - DE 3
+  - DE 4
+  - DE 5
+  - DE 6
+  - DE 7
+  - DE 8
+  - DE 9
+  - DE 0
+  - DE ESZETT
   - {t: '$$mdi:backspace$$', type: backspace}
   - F5
   - {t: '6', s: ^}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - DE Q
+  - DE W
+  - DE E
+  - DE R
+  - DE T
+  - DE Z
+  - DE U
+  - DE I
+  - DE O
+  - DE P
+  - DE U UMLAUT
+  - DE PLUS
+  - DE HASH
   - PG UP
   - T
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - DE A
+  - DE S
+  - DE D
+  - DE F
+  - DE G
+  - DE H
+  - DE J
+  - DE K
+  - DE L
+  - DE O UMLAUT
+  - DE A UMLAUT
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - PG DN
   - G
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - DE Y
+  - DE X
+  - DE C
+  - DE V
+  - DE B
+  - DE N
+  - DE M
+  - DE COMMA
+  - DE DOT
+  - DE MINUS
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
@@ -76,14 +76,14 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
-  - $$mdi:pan-down$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:volume-off$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   AUTOMS:
