@@ -361,48 +361,48 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
+  - DE TILDE
+  - DE EXCL
+  - DE AT
+  - DE POUND
+  - DE DLLR
+  - DE PRCNT
+  - DE CARET
+  - DE AMPS
+  - DE STAR
+  - DE LPAR
   - )
-  - '{'
-  - '}'
-  - '|'
+  - DE LBRC
+  - DE RBRC
+  - DE PIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '''', s: '"'}
-  - '"'
-  - '{'
-  - '}'
-  - '|'
-  - +
-  - {t: '=', s: +}
-  - (
-  - )
-  - ':'
-  - '"'
+  - DE SQT
+  - DE DQT
+  - DE LBRC
+  - DE RBRC
+  - DE PIPE
+  - DE PLUS
+  - DE EQUAL
+  - DE LPAR
+  - DE RPAR
+  - DE COLON
+  - DE DQT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '`', s: '~'}
-  - '~'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
-  - _
-  - {t: '-', s: _}
-  - <
-  - '>'
-  - '?'
+  - DE GRAVE
+  - DE TILDE
+  - DE LBKT
+  - DE RBKT
+  - DE BSLH
+  - DE UNDER
+  - DE MINUS
+  - DE LT
+  - DE GT
+  - DE QMARK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -411,7 +411,7 @@ layers:
   - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:alpha-w-box$$
-  - _
+  - DE UNDER
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
