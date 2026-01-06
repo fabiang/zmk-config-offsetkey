@@ -49,7 +49,7 @@
         compatible = "zmk,keymap";
 
         QWERTY {
-            label = "QWERTZ";4
+            label = "QWERTZ";
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
             bindings = <
 &kp ESC         &kp DE_CARET    &kp DE_N1       &kp DE_N2       &kp DE_N3       &kp DE_N4       &kp DE_N5       &kp DE_N6       &kp DE_N7       &kp DE_N8       &kp DE_N9       &kp DE_N0       &kp DE_ESZETT   &kp BSPC        &kp F5          &kp N6
