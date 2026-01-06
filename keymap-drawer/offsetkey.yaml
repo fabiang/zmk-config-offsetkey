@@ -374,7 +374,7 @@ layers:
   - )
   - DE LBRC
   - DE RBRC
-  - DE PIPE
+  - DE CAPITAL SZ
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
