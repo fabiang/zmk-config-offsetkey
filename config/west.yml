@@ -48,4 +48,3 @@ manifest:
       revision: main
   self:
     path: config
-
