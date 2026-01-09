@@ -43,6 +43,12 @@
     };
 
     behaviors {
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            tap-ms = <20>; // Scroll tap duration
+        };
     };
 
     keymap {
@@ -50,7 +56,7 @@
 
         QWERTY {
             label = "QWERTZ";
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_up_down>;
             bindings = <
 &kp ESC         &kp DE_CARET    &kp DE_N1       &kp DE_N2       &kp DE_N3       &kp DE_N4       &kp DE_N5       &kp DE_N6       &kp DE_N7       &kp DE_N8       &kp DE_N9       &kp DE_N0       &kp DE_ESZETT   &kp BSPC        &kp F5          &kp N6
 &kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T        &kp DE_Z        &kp DE_U        &kp DE_I        &kp DE_O        &kp DE_P        &kp DE_U_UMLAUT &kp DE_PLUS     &kp DE_HASH     &kp PG_UP       &kp T
@@ -62,20 +68,9 @@
             >;
         };
 
-        AUTOMS {
-            label = "AUTOMS";
-            bindings = <
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                          &trans          &trans
-&trans          &trans          &mkp RCLK       &mkp MCLK       &mkp LCLK       &trans          &trans          &trans          &trans          &trans          &trans          &trans                          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans                          &trans                          &trans          &trans          &trans                          &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-            >;
-        };
-
         FUNMED {
             label = "FUNMED";
+            sensor-bindings = <&scroll_up_down>;
             bindings = <
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &kp K_APP       &kp F12         &kp F9          &kp F8          &kp F7          &kp PSCRN       &kp C_VOL_UP    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP    &trans          &trans          &trans          &trans
@@ -88,6 +83,7 @@
 
         NAVNUM {
             label = "NAVNUM";
+            sensor-bindings = <&scroll_up_down>;
             bindings = <
 &kp GRAVE       &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11         &kp F12         &kp K_APP       &trans          &trans
 &kp HOME        &kp END         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp KP_NLCK     &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MINUS    &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &trans          &trans
@@ -100,6 +96,7 @@
 
         SYMBOL {
             label =  "SYMBOL";
+            sensor-bindings = <&scroll_up_down>;
             bindings = <
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                &trans          &trans
 &kp DE_TILDE    &kp DE_EXCL     &kp DE_AT       &kp DE_POUND    &kp DE_DLLR     &kp DE_PRCNT    &kp DE_CARET    &kp DE_AMPS     &kp DE_STAR     &kp DE_LPAR     &kp RPAR        &kp DE_LBRC     &kp DE_RBRC     &kp DE_CAPITAL_SZ     &trans          &trans
@@ -112,6 +109,7 @@
 
         CONFIG {
             label = "CONFIG";
+            sensor-bindings = <&scroll_up_down>;
             bindings = <
 &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &bt BT_PRV      &bt BT_NXT      &bt BT_CLR_ALL  &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &out OUT_USB    &out OUT_BLE    &out OUT_TOG    &trans          &trans
