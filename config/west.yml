@@ -42,7 +42,7 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: fabiang
-      revision: tux-modifier-zmk0.3
+      revision: zmk-0.3-compatible
     - name: zmk-locales
       remote: zmk-locales
       revision: main
