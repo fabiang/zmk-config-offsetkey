@@ -40,6 +40,6 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: fabiang
-      revision: zmk-0.3-compatible
+      revision: test
   self:
     path: config
