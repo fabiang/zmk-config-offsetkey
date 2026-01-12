@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: a741725193
       url-base: https://github.com/a741725193
+    - name: fabiang
+      url-base: https://github.com/fabiang
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -37,7 +39,7 @@ manifest:
       remote: a741725193
       revision: main
     - name: zmk-dongle-display
-      remote: englmaxi
-      revision: v0.3
+      remote: fabiang
+      revision: zmk-0.3-compatible
   self:
     path: config
