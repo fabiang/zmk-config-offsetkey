@@ -43,3 +43,4 @@ manifest:
       revision: zmk-0.3-compatible
   self:
     path: config
+
